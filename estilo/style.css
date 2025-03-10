@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@font-face {
+    font-family: 'texto';
+    src: url('../imagens/East\ Border.ttf') format('truetype');
+}
+:root{
+    --fonte1: 'Moon Dance', cursive;
+    --fonte2: 'Caveat', cursive;
+    --fonte3: 'texto', sans-serif;
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+ html, body{
+    background-color: darkgray;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 100vw;
+}
+header{
+    background-color: black;
+    padding: 10px;
+}
+ header > h1{
+    font-family: var(--fonte3);
+    text-align: center;
+    color: red;
+    font-size: 6em;
+ }
+
+
+ header > p{
+    font-family: var(--fonte3);
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    font-size: 2vw;
+ }
+ 
+ section{
+    font-family: var(--fonte2);
+    font-weight: bold;
+    background-attachment: fixed;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2vw;
+ }
+ 
+#titulo{
+    background-color: white;
+    font-family: var(--fonte1);
+    color: red;
+    font-size: 12vh;
+    font-weight: bolder;
+    text-indent: 10px;
+}
+ .normal{
+    background-color: white;
+    color: black;
+ }
+ .imagem{
+    background-color: black;
+    color: white;
+    box-shadow: inset 6px 5px 13px 0px rgb(49, 49, 49);
+    background-attachment: fixed;
+ }
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    box-shadow: inset 6px 5px 13px 0px rgb(49, 49, 49);
+}
+a{
+    color: white;
+    text-decoration: dashed;
+    font-weight: bold;
+
+}
+#img1{
+    background-image: url('../imagens/foto2.jpg');
+    background-position: left top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#img2{
+    background-image: url('../imagens/foto1.jpg');
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+    
